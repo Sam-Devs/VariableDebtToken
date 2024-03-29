@@ -21,6 +21,33 @@ Even though the increaseAllowance, and decreaseAllowance functions revert, the t
 
 ERC20 transfer function i've implemented allows users to transfer tokens directly from their own addresses to other addresses without requiring approval from an allowance. This means users can directly transfer the debt token without needing to approve the transfer beforehand.
 
+## Foundry Test
+
+**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+
+Foundry consists of:
+
+-   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+
+### Clone
+```shell
+$ git clone https://github.com/Sam-Devs/VariableDebtToken.git
+cd VariableDebtToken
+ npm install  or yarn update
+```
+
+### Build
+
+```shell
+$ forge build
+```
+
+### Test
+
+```shell
+$ forge test
+```
+
 
 ## Changes Made:
 1. Added ERC20 transfer functionality to the Variable Debt Token (VDT) contract.
