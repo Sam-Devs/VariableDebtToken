@@ -69,3 +69,12 @@ Gas prices: Implementing these functions may result in higher gas prices for use
 * Implement role-based access control to restrict sensitive functions.
 * Use secure coding practices to prevent vulnerabilities like reentrancy and integer overflow/underflow.
 * Regularly audit the contract code for potential security issues.
+
+
+## Contribution
+```shell
+ git clone https://github.com/Sam-Devs/VariableDebtToken.git
+ cd VariableDebtToken
+ npm install  or yarn update
+ forge test
+```
